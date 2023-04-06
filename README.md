@@ -34,6 +34,8 @@
   </a>
 </p>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5140d350-2aca-4ed7-b399-26a081651a49/deploy-status)](https://app.netlify.com/sites/mvano/deploys)
+
 ![Doks — Modern Documentation Theme](https://raw.githubusercontent.com/h-enk/doks/master/images/doks.png)
 
 ## Demo
