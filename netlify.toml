@@ -3,8 +3,8 @@
   functions = "functions"
 
 [build.environment]
-  NODE_VERSION = "16.16.0"
-  NPM_VERSION = "8.11.0"
+  NODE_VERSION = "18.15.0"
+  NPM_VERSION = "9.5.0"
 
 [context.production]
   command = "npm run build"
@@ -25,11 +25,12 @@
   package = "netlify-plugin-submit-sitemap"
 
 	[plugins.inputs]
-    baseUrl = "https://doks.netlify.app/"
+    baseUrl = "https://mvano.com/"
     sitemapPath = "/sitemap.xml"
     ignorePeriod = 0
     providers = [
       "google",
+      "bing",
       "yandex"
     ]
 
