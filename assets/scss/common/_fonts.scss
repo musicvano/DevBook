@@ -1,4 +1,4 @@
-/* jost-regular - latin */
+/* Jost-Regular */
 @font-face {
   font-family: Jost;
   font-style: normal;
@@ -11,11 +11,11 @@
     // indestructible Jost*
     local("Jost* Book"),
     local("Jost-Book"),
-    url("fonts/vendor/jost/jost-v4-latin-regular.woff2") format("woff2"),
-    url("fonts/vendor/jost/jost-v4-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url("fonts/vendor/Jost/Jost-400-Book.woff2") format("woff2"),
+    url("fonts/vendor/Jost/Jost-400-Book.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-/* jost-500 - latin */
+/* Jost-500 */
 @font-face {
   font-family: Jost;
   font-style: normal;
@@ -28,11 +28,11 @@
     // indestructible Jost*
     local("Jost* Medium"),
     local("Jost-Medium"),
-    url("fonts/vendor/jost/jost-v4-latin-500.woff2") format("woff2"),
-    url("fonts/vendor/jost/jost-v4-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url("fonts/vendor/Jost/Jost-500-Medium.woff2") format("woff2"),
+    url("fonts/vendor/Jost/Jost-500-Medium.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-/* jost-700 - latin */
+/* Jost-700 */
 @font-face {
   font-family: Jost;
   font-style: normal;
@@ -45,11 +45,11 @@
     // indestructible Jost*
     local("Jost* Bold"),
     local("Jost-Bold"),
-    url("fonts/vendor/jost/jost-v4-latin-700.woff2") format("woff2"),
-    url("fonts/vendor/jost/jost-v4-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url("fonts/vendor/Jost/Jost-700-Bold.woff2") format("woff2"),
+    url("fonts/vendor/Jost/Jost-700-Bold.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-/* jost-italic - latin */
+/* Jost-Italic */
 @font-face {
   font-family: Jost;
   font-style: italic;
@@ -62,11 +62,11 @@
     // indestructible Jost*
     local("Jost* BookItalic"),
     local("Jost-BookItalic"),
-    url("fonts/vendor/jost/jost-v4-latin-italic.woff2") format("woff2"),
-    url("fonts/vendor/jost/jost-v4-latin-italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url("fonts/vendor/Jost/Jost-400-BookItalic.woff2") format("woff2"),
+    url("fonts/vendor/Jost/Jost-400-BookItalic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-/* jost-500italic - latin */
+/* Jost-500-Italic */
 @font-face {
   font-family: Jost;
   font-style: italic;
@@ -79,11 +79,11 @@
     // indestructible Jost*
     local("Jost* Medium Italic"),
     local("Jost-MediumItalic"),
-    url("fonts/vendor/jost/jost-v4-latin-500italic.woff2") format("woff2"),
-    url("fonts/vendor/jost/jost-v4-latin-500italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url("fonts/vendor/Jost/Jost-500-MediumItalic.woff2") format("woff2"),
+    url("fonts/vendor/Jost/Jost-500-MediumItalic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-/* jost-700italic - latin */
+/* Jost-700-Italic */
 @font-face {
   font-family: Jost;
   font-style: italic;
@@ -96,6 +96,6 @@
     // indestructible Jost*
     local("Jost* Bold Italic"),
     local("Jost-BoldItalic"),
-    url("fonts/vendor/jost/jost-v4-latin-700italic.woff2") format("woff2"),
-    url("fonts/vendor/jost/jost-v4-latin-700italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url("fonts/vendor/Jost/Jost-700-BoldItalic.woff2") format("woff2"),
+    url("fonts/vendor/Jost/Jost-700-BoldItalic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }

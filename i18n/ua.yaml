@@ -1,0 +1,17 @@
+- id: get-started
+  translation: "Поїхали"
+
+- id: on-this-page
+  translation: "На цій сторінці"
+
+- id: search-text
+  translation: "Пошук..."
+
+- id: 404-title
+  translation: "Сторінку не знайдено :("
+
+- id: 404-text
+  translation: "Ця сторінка не існує або її переміщено."
+
+- id: browse
+  translation: "Переглянути"

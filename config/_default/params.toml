@@ -1,10 +1,10 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "eBook"
+title = "DevBook"
 titleSeparator = "-"
-titleAddition = "Основи програмування C#"
-description = "Навчальні посібники з об’єктно-орієнтованого програмування C#, C++, Java, Kotlin, Python."
+titleAddition = "C#, C++, Java, Kotlin, Python"
+description = "Free courses to learn object-oriented programming with C#, C++, Java, Kotlin, Python."
 
 ## Documentation
 # docsVersion = "0.3"
@@ -12,8 +12,8 @@ description = "Навчальні посібники з об’єктно-орі
 ## Open Graph
 images = ["doks.png"]
 ogLocale = "en_US"
-domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+domainTLD = "mvano.com"
+titleHome = "DevBook"
 
 ## Twitter Cards
 twitterSite = "@musvano"
@@ -36,7 +36,7 @@ schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = ""
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/musicvano/eBook"
+schemaGitHub = "https://github.com/musicvano/DevBook"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -80,7 +80,7 @@ alertText = "Introducing the Doks child theme, several DX + UX updates, and more
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
 repoHost = "GitHub"
 #repoHost = "Gitea"
-docsRepo = "https://github.com/musicvano/eBook"
+docsRepo = "https://github.com/musicvano/DevBook"
 docsRepoBranch = "main"
 docsRepoSubPath = ""
 editPage = false
@@ -101,7 +101,7 @@ lastMod = false
   breadCrumb = false
   highLight = true
   kaTex = false
-  multilingualMode = false
+  multilingualMode = true
   docsVersioning = false
   fullWidth = false
   navbarSticky = true
