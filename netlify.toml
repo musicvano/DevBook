@@ -46,4 +46,4 @@
   for = "/*"
   [headers.values]
     X-Frame-Options = "SAMEORIGIN"
-    Content-Security-Policy = "script-src-elem 'self' https://app.pryvy.io"
+    Content-Security-Policy = "script-src-elem 'self' 'unsafe-inline' https://app.pryvy.io"
