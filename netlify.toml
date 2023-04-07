@@ -42,8 +42,8 @@
   publish = "public"
   autoLaunch = false
 
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Frame-Options = "SAMEORIGIN"
-    Content-Security-Policy = "script-src-elem 'self' 'unsafe-inline' https://app.pryvy.io"
+#[[headers]]
+#  for = "/*"
+#  [headers.values]
+#    X-Frame-Options = "SAMEORIGIN"
+#    Content-Security-Policy = "script-src-elem 'self' 'unsafe-inline' https://app.pryvy.io"
