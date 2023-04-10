@@ -10,7 +10,7 @@ description = "Free courses to learn object-oriented programming with C#, C++, J
 # docsVersion = "0.3"
 
 ## Open Graph
-images = ["doks.png"]
+images = ["devbook.png"]
 ogLocale = "en_US"
 domainTLD = "mvano.com"
 titleHome = "DevBook"
@@ -22,16 +22,16 @@ twitterCreator = "@musvano"
 ## JSON-LD
 schemaType = "Person"
 # schemaType = "Organization"
-schemaName = "Doks"
+schemaName = "DevBook"
 schemaAuthor = "Ivan Muzyka"
 schemaAuthorTwitter = "https://twitter.com/musvano"
 schemaAuthorLinkedIn = "https://www.linkedin.com/in/musicvano"
 schemaAuthorGitHub = "https://github.com/musicvano"
 schemaLocale = "en-US"
-schemaLogo = "logo-doks.png"
+schemaLogo = "logo.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "doks.png"
+schemaImage = "devbook.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = ""
