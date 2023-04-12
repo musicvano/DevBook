@@ -1,6 +1,9 @@
 - id: get-started
   translation: "Поїхали"
 
+- id: last-updated
+  translation: "Останнє оновлення"
+
 - id: on-this-page
   translation: "На цій сторінці"
 
