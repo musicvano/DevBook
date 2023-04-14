@@ -106,8 +106,8 @@ $border-color:                $gray-200;
 // Font, line-height, and color for body text, headings, and more.
 
 // stylelint-disable value-keyword-case
-$font-family-sans-serif:      "Open Sans", -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-$font-family-monospace:       "JetBrains Mono", sfmono-regular, menlo, monaco, consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-sans-serif:      "Fira Sans", -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-monospace:       "Fira Code", sfmono-regular, menlo, monaco, consolas, "Liberation Mono", "Courier New", monospace;
 $font-family-base:            $font-family-sans-serif;
 // stylelint-enable value-keyword-case
 
@@ -120,7 +120,7 @@ $font-size-sm:                $font-size-base * 0.875;
 // $line-height-base:            1.5;
 
 $headings-font-family:        null;
-$headings-font-weight:        700;
+$headings-font-weight:        600;
 
 $lead-font-weight:            400;
 

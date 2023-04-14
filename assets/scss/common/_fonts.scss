@@ -1,109 +1,87 @@
 @font-face {
-  font-family: Open Sans;
+  font-family: Fira Sans;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src:
-    local("Open Sans Regular"),
-    url("fonts/vendor/OpenSans-Regular.woff2") format("woff2"),
-    url("fonts/vendor/OpenSans-Regular.woff") format("woff");
+    local("Fira Sans Regular"),
+    url("fonts/vendor/FiraSans-Regular.woff2") format("woff2"),
+    url("fonts/vendor/FiraSans-Regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: Open Sans;
+  font-family: Fira Sans;
   font-style: normal;
   font-weight: 500;
   font-display: swap;
   src:
-    local("Open Sans Medium"),
-    url("fonts/vendor/OpenSans-Medium.woff2") format("woff2"),
-    url("fonts/vendor/OpenSans-Medium.woff") format("woff");
+    local("Fira Sans Medium"),
+    url("fonts/vendor/FiraSans-Medium.woff2") format("woff2"),
+    url("fonts/vendor/FiraSans-Medium.woff") format("woff");
 }
 
 @font-face {
-  font-family: Open Sans;
+  font-family: Fira Sans;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-display: swap;
   src:
-    local("Open Sans Bold"),
-    url("fonts/vendor/OpenSans-Bold.woff2") format("woff2"),
-    url("fonts/vendor/OpenSans-Bold.woff") format("woff");
+    local("Fira Sans SemiBold"),
+    url("fonts/vendor/FiraSans-SemiBold.woff2") format("woff2"),
+    url("fonts/vendor/FiraSans-SemiBold.woff") format("woff");
 }
 
 @font-face {
-  font-family: Open Sans;
+  font-family: Fira Sans;
   font-style: italic;
   font-weight: 400;
   font-display: swap;
   src:
-    local("Open Sans Italic"),
-    url("fonts/vendor/OpenSans-Italic.woff2") format("woff2"),
-    url("fonts/vendor/OpenSans-Italic.woff") format("woff");
+    local("Fira Sans Italic"),
+    url("fonts/vendor/FiraSans-Italic.woff2") format("woff2"),
+    url("fonts/vendor/FiraSans-Italic.woff") format("woff");
 }
 
 @font-face {
-  font-family: Open Sans;
+  font-family: Fira Sans;
   font-style: italic;
   font-weight: 500;
   font-display: swap;
   src:
-    local("Open Sans Medium Italic"),
-    url("fonts/vendor/OpenSans-MediumItalic.woff2") format("woff2"),
-    url("fonts/vendor/OpenSans-MediumItalic.woff") format("woff");
+    local("Fira Sans Medium Italic"),
+    url("fonts/vendor/FiraSans-MediumItalic.woff2") format("woff2"),
+    url("fonts/vendor/FiraSans-MediumItalic.woff") format("woff");
 }
 
 @font-face {
-  font-family: Open Sans;
+  font-family: Fira Sans;
   font-style: italic;
-  font-weight: 700;
+  font-weight: 600;
   font-display: swap;
   src:
-    local("Open Sans Bold Italic"),
-    url("fonts/vendor/OpenSans-BoldItalic.woff2") format("woff2"),
-    url("fonts/vendor/OpenSans-BoldItalic.woff") format("woff");
+    local("Fira Sans SemiBold Italic"),
+    url("fonts/vendor/FiraSans-SemiBoldItalic.woff2") format("woff2"),
+    url("fonts/vendor/FiraSans-SemiBoldItalic.woff") format("woff");
 }
 
 @font-face {
-  font-family: JetBrains Mono;
+  font-family: Fira Code;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src:
-    local("JetBrains Mono Regular"),
-    url("fonts/vendor/JetBrainsMono-Regular.woff2") format("woff2"),
-    url("fonts/vendor/JetBrainsMono-Regular.woff") format("woff");
+    local("Fira Code Regular"),
+    url("fonts/vendor/FiraCode-Regular.woff2") format("woff2"),
+    url("fonts/vendor/FiraCode-Regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: JetBrains Mono;
+  font-family: Fira Code;
   font-style: normal;
   font-weight: 700;
   font-display: swap;
   src:
-    local("JetBrains Mono Bold"),
-    url("fonts/vendor/JetBrainsMono-Bold.woff2") format("woff2"),
-    url("fonts/vendor/JetBrainsMono-Bold.woff") format("woff");
-}
-
-@font-face {
-  font-family: JetBrains Mono;
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src:
-    local("JetBrains Mono Italic"),
-    url("fonts/vendor/JetBrainsMono-Italic.woff2") format("woff2"),
-    url("fonts/vendor/JetBrainsMono-Italic.woff") format("woff");
-}
-
-@font-face {
-  font-family: JetBrains Mono;
-  font-style: italic;
-  font-weight: 700;
-  font-display: swap;
-  src:
-    local("JetBrains Mono Bold Italic"),
-    url("fonts/vendor/JetBrainsMono-BoldItalic.woff2") format("woff2"),
-    url("fonts/vendor/JetBrainsMono-BoldItalic.woff") format("woff");
+    local("Fira Code Bold"),
+    url("fonts/vendor/FiraCode-Bold.woff2") format("woff2"),
+    url("fonts/vendor/FiraCode-Bold.woff") format("woff");
 }
