@@ -12,8 +12,7 @@
       <a class="btn btn-primary btn-lg px-4 mb-2"
         href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}prologue/introduction/"
         role="button">{{ i18n "get-started" }}</a>
-      <p class="meta">{{ i18n "last-updated" }}: {{ .GitInfo.AuthorDate.Format "02.01.2006" }} <a href="https://github.com/musicvano/DevBook">[GitHub]</a></p>      
-      <p>Last Modified: {{ .Lastmod.Format "2 January 2006" }}</p>
+      <p class="meta opacity-75">{{ i18n "last-updated" }}: {{ now.Format "02.01.2006" }} <a href="https://github.com/musicvano/DevBook">[GitHub]</a></p>      
     </div>
   </div>
 </section>
