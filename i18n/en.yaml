@@ -8,7 +8,7 @@
   translation: "On this page"
 
 - id: search-text
-  translation: "Search docs..."
+  translation: "Search"
 
 - id: 404-title
   translation: "Page not found :("
@@ -18,3 +18,21 @@
 
 - id: browse
   translation: "Browse"
+
+- id: about-csharp
+  translation: "Creating of the destop applications for Windows, back-end programming, cross-platform development."
+
+- id: about-java
+  translation: "Server programming, cross-platform sevices, mobile development, cloud applications."
+
+- id: about-kotlin
+  translation: "Development of mobile applications, server programming, cross-platform sevices."
+
+- id: about-cpp
+  translation: "High-performance computing, computer games, graphics, system programming."
+
+- id: about-python
+  translation: "Data science, machine learning, testing, Internet of Things, mathematical modelling."
+
+- id: about-javascript
+  translation: "Web programming, front-end and back-end website development, the endless world of web technologies."

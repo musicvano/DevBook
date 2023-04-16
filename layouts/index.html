@@ -10,172 +10,60 @@
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
       <a class="btn btn-primary btn-lg px-4 mb-2"
-        href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}prologue/introduction/"
+        href="/csharp/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}overview/introduction/"
         role="button">{{ i18n "get-started" }}</a>
-      <p class="meta opacity-75">{{ i18n "last-updated" }}: {{ now.Format "02.01.2006" }} <a href="https://github.com/musicvano/DevBook">[GitHub]</a></p>      
+      <p class="meta opacity-75">{{ i18n "last-updated" }}: {{ now.Format "02.01.2006" }} <a
+          href="https://github.com/musicvano/DevBook">[GitHub]</a></p>
     </div>
   </div>
 </section>
 {{ end }}
 
 {{ define "sidebar-prefooter" }}
-{{ if eq $.Site.Language.LanguageName "Українська" }}
 <section class="section section-sm bg-light">
   <div class="container">
     <div class="row justify-content-center text-center">
-      <div class="col-lg-5">
-        <h2 class="h4">C# ⚡️</h2>
-        <p>Створення desktop продуктів під ОС Windows, back-end розробка, кросплатформне програмування.</p>
-        <a class="btn btn-outline-primary btn-sm" href="https://jobs.dou.ua/trends/?category=.NET" title="Популярність">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trending-up"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
-        </a>
-        <a class="btn btn-outline-primary btn-sm" href="https://jobs.dou.ua/vacancies/?category=.NET" title="Вакансії">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-coffee"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
-        </a>
-        <a class="btn btn-outline-primary btn-sm" href="https://jobs.dou.ua/salaries/?period=2022-12&position=Junior%20SE&technology=C#/.NET" title="Зарплати">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-            class="feather feather-dollar-sign">
-            <line x1="12" y1="1" x2="12" y2="23"></line>
-            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-          </svg>
+      <div class="col-lg-5 desc">
+        <a href="/csharp/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}overview/introduction/">
+          <h2 class="h4">⚡️ C#</h2>
+          <p>{{ i18n "about-csharp" }}</p>
         </a>
       </div>
-      <div class="col-lg-5">
-        <h2 class="h4">Java</h2>
-        <p>Серверне програмування, створення кросплатформних програмних продуктів, мобільна розробка.</p>
-        <a class="btn btn-outline-primary btn-sm" href="https://jobs.dou.ua/trends/?category=Java" title="Популярність">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trending-up"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
-        </a>
-        <a class="btn btn-outline-primary btn-sm" href="https://jobs.dou.ua/vacancies/?category=Java" title="Вакансії">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-coffee"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
-        </a>
-        <a class="btn btn-outline-primary btn-sm" href="https://jobs.dou.ua/salaries/?period=2022-12&position=Junior%20SE&technology=Java" title="Зарплати">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-            class="feather feather-dollar-sign">
-            <line x1="12" y1="1" x2="12" y2="23"></line>
-            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-          </svg>
+      <div class="col-lg-5 desc">
+        <a href="/java/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}overview/introduction/">
+          <h2 class="h4">☕ Java</h2>
+          <p>{{ i18n "about-java" }}</p>
         </a>
       </div>
-      <div class="col-lg-5">
-        <h2 class="h4">Kotlin</h2>
-        <p>Розробка під мобільні платформи, серверне програмування, кросплатформні програмні продукти.</p>
-        <a class="btn btn-outline-primary btn-sm" href="https://jobs.dou.ua/trends/?category=Java" title="Популярність">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trending-up"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
-        </a>
-        <a class="btn btn-outline-primary btn-sm" href="https://jobs.dou.ua/vacancies/?category=Java" title="Вакансії">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-coffee"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
-        </a>
-        <a class="btn btn-outline-primary btn-sm" href="https://jobs.dou.ua/salaries/?period=2022-12&position=Junior%20SE&technology=Kotlin" title="Зарплати">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-            class="feather feather-dollar-sign">
-            <line x1="12" y1="1" x2="12" y2="23"></line>
-            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-          </svg>
+      <div class="col-lg-5 desc">
+        <a href="/kotlin/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}overview/introduction/">
+          <h2 class="h4">📱 Kotlin</h2>
+          <p>{{ i18n "about-kotlin" }}</p>
         </a>
       </div>
     </div>
     <div class="row justify-content-center text-center">
-      <div class="col-lg-5">
-        <h2 class="h4">C++ 🚀</h2>
-        <p>Високопродуктивні обчислення, комп'ютерні ігри, графіка, системне програмування.</p>
-        <a class="btn btn-outline-primary btn-sm" href="https://jobs.dou.ua/trends/?category=C%2B%2B" title="Популярність">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trending-up"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
-        </a>
-        <a class="btn btn-outline-primary btn-sm" href="https://jobs.dou.ua/vacancies/?category=C%2B%2B" title="Вакансії">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-coffee"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
-        </a>
-        <a class="btn btn-outline-primary btn-sm" href="https://jobs.dou.ua/salaries/?period=2022-12&position=Junior%20SE&technology=C++" title="Зарплати">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-            class="feather feather-dollar-sign">
-            <line x1="12" y1="1" x2="12" y2="23"></line>
-            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-          </svg>
+      <div class="col-lg-5 desc">
+        <a href="/cpp/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}overview/introduction/">
+          <h2 class="h4">🚀 C++</h2>
+          <p>{{ i18n "about-cpp" }}</p>
         </a>
       </div>
-      <div class="col-lg-5">
-        <h2 class="h4">Python</h2>
-        <p>Наука про данні, машинне навчання, тестування, Internet of Things, моделювання.</p>
-        <a class="btn btn-outline-primary btn-sm" href="https://jobs.dou.ua/trends/?category=Python" title="Популярність">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trending-up"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
-        </a>
-        <a class="btn btn-outline-primary btn-sm" href="https://jobs.dou.ua/vacancies/?category=Python" title="Вакансії">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-coffee"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
-        </a>
-        <a class="btn btn-outline-primary btn-sm" href="https://jobs.dou.ua/salaries/?period=2022-12&position=Junior%20SE&technology=Python" title="Зарплати">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-            class="feather feather-dollar-sign">
-            <line x1="12" y1="1" x2="12" y2="23"></line>
-            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-          </svg>
+      <div class="col-lg-5 desc">
+        <a href="/python/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}overview/introduction/">
+          <h2 class="h4">🐍 Python</h2>
+          <p>{{ i18n "about-python" }}</p>
         </a>
       </div>
-      <div class="col-lg-5">
-        <h2 class="h4">JavaScript</h2>
-        <p>Вебпрограмування, front-end та back-end розробка сайтів, безмежний світ вебтехнологій.</p>
-        <a class="btn btn-outline-primary btn-sm" href="https://jobs.dou.ua/trends/?category=Front%20End" title="Популярність">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trending-up"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
-        </a>
-        <a class="btn btn-outline-primary btn-sm" href="https://jobs.dou.ua/vacancies/?category=Front%20End" title="Вакансії">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-coffee"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
-        </a>
-        <a class="btn btn-outline-primary btn-sm" href="https://jobs.dou.ua/salaries/?period=2022-12&position=Junior%20SE&technology=JavaScript" title="Зарплати">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-            class="feather feather-dollar-sign">
-            <line x1="12" y1="1" x2="12" y2="23"></line>
-            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-          </svg>
+      <div class="col-lg-5 desc">
+        <a href="/javascript/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}overview/introduction/">
+          <h2 class="h4">🌐 JavaScript</h2>
+          <p>{{ i18n "about-javascript" }}</p>
         </a>
       </div>
     </div>
   </div>
 </section>
-{{ end }}
-{{ if eq $.Site.Language.LanguageName "English" }}
-<section class="section section-sm">
-  <div class="container">
-    <div class="row justify-content-center text-center">
-      <div class="col-lg-5">
-        <h2 class="h4">C# ⚡️</h2>
-        <p>Get A+ scores on <a href="https://observatory.mozilla.org/analyze/doks.netlify.app">Mozilla Observatory</a>
-          out of the box. Easily change the default Security Headers to suit your needs.</p>
-      </div>
-      <div class="col-lg-5">
-        <h2 class="h4">Java</h2>
-        <p>Get 100 scores on <a
-            href="https://googlechrome.github.io/lighthouse/viewer/?gist=59aafe464a68f8bc30b8e9a636d5b053">Google
-            Lighthouse</a> by default. Doks removes unused css, prefetches links, and lazy loads images.</p>
-      </div>
-      <div class="col-lg-5">
-        <h2 class="h4">Kotlin</h2>
-        <p>Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings
-          to your liking.</p>
-      </div>
-    </div>
-    <div class="row justify-content-center text-center">
-      <div class="col-lg-5">
-        <h2 class="h4">C++</h2>
-        <p>Search your Doks site with FlexSearch. Easily customize index settings and search options to your liking.</p>
-      </div>
-      <div class="col-lg-5">
-        <h2 class="h4">Python</h2>
-        <p>Build pages with a landing page, blog, or documentation layout. Add custom sections and components to suit
-          your needs.</p>
-      </div>
-      <div class="col-lg-5">
-        <h2 class="h4">JavaScript</h2>
-        <p>Switch to a low-light UI with the click of a button. Change colors with variables to match your branding.</p>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
 {{ end }}
 
 {{ define "sidebar-footer" }}

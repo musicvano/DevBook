@@ -17,4 +17,3 @@ toc: true
 ## Get started
 
 There are two main ways to get started with Doks:
-..

@@ -1,71 +1,115 @@
 @font-face {
-  font-family: Noto Sans;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src:
+    local("Fira Sans Light"),
+    url("fonts/vendor/FiraSans-Light.woff2") format("woff2"),
+    url("fonts/vendor/FiraSans-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Fira Sans";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src:
-    local("Noto Sans Regular"),
-    url("fonts/vendor/NotoSans-Regular.woff2") format("woff2"),
-    url("fonts/vendor/NotoSans-Regular.woff") format("woff");
+    local("Fira Sans Regular"),
+    url("fonts/vendor/FiraSans-Regular.woff2") format("woff2"),
+    url("fonts/vendor/FiraSans-Regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: Noto Sans;
+  font-family: "Fira Sans";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
   src:
-    local("Noto Sans Medium"),
-    url("fonts/vendor/NotoSans-Medium.woff2") format("woff2"),
-    url("fonts/vendor/NotoSans-Medium.woff") format("woff");
+    local("Fira Sans Medium"),
+    url("fonts/vendor/FiraSans-Medium.woff2") format("woff2"),
+    url("fonts/vendor/FiraSans-Medium.woff") format("woff");
 }
 
 @font-face {
-  font-family: Noto Sans;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src:
+    local("Fira Sans SemiBold"),
+    url("fonts/vendor/FiraSans-SemiBold.woff2") format("woff2"),
+    url("fonts/vendor/FiraSans-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Fira Sans";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
   src:
-    local("Noto Sans Bold"),
-    url("fonts/vendor/NotoSans-Bold.woff2") format("woff2"),
-    url("fonts/vendor/NotoSans-Bold.woff") format("woff");
+    local("Fira Sans Bold"),
+    url("fonts/vendor/FiraSans-Bold.woff2") format("woff2"),
+    url("fonts/vendor/FiraSans-Bold.woff") format("woff");
 }
 
 @font-face {
-  font-family: Noto Sans;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src:
+    local("Fira Sans Light Italic"),
+    url("fonts/vendor/FiraSans-LightItalic.woff2") format("woff2"),
+    url("fonts/vendor/FiraSans-LightItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Fira Sans";
   font-style: italic;
   font-weight: 400;
   font-display: swap;
   src:
-    local("Noto Sans Italic"),
-    url("fonts/vendor/NotoSans-Italic.woff2") format("woff2"),
-    url("fonts/vendor/NotoSans-Italic.woff") format("woff");
+    local("Fira Sans Italic"),
+    url("fonts/vendor/FiraSans-Italic.woff2") format("woff2"),
+    url("fonts/vendor/FiraSans-Italic.woff") format("woff");
 }
 
 @font-face {
-  font-family: Noto Sans;
+  font-family: "Fira Sans";
   font-style: italic;
   font-weight: 500;
   font-display: swap;
   src:
-    local("Noto Sans Medium Italic"),
-    url("fonts/vendor/NotoSans-MediumItalic.woff2") format("woff2"),
-    url("fonts/vendor/NotoSans-MediumItalic.woff") format("woff");
+    local("Fira Sans Medium Italic"),
+    url("fonts/vendor/FiraSans-MediumItalic.woff2") format("woff2"),
+    url("fonts/vendor/FiraSans-MediumItalic.woff") format("woff");
 }
 
 @font-face {
-  font-family: Noto Sans;
+  font-family: "Fira Sans";
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src:
+    local("Fira Sans SemiBold Italic"),
+    url("fonts/vendor/FiraSans-SemiBoldItalic.woff2") format("woff2"),
+    url("fonts/vendor/FiraSans-SemiBoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Fira Sans";
   font-style: italic;
   font-weight: 700;
   font-display: swap;
   src:
-    local("Noto Sans Bold Italic"),
-    url("fonts/vendor/NotoSans-BoldItalic.woff2") format("woff2"),
-    url("fonts/vendor/NotoSans-BoldItalic.woff") format("woff");
+    local("Fira Sans Bold Italic"),
+    url("fonts/vendor/FiraSans-BoldItalic.woff2") format("woff2"),
+    url("fonts/vendor/FiraSans-BoldItalic.woff") format("woff");
 }
 
 @font-face {
-  font-family: JetBrains Mono;
+  font-family: "JetBrains Mono";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -76,7 +120,7 @@
 }
 
 @font-face {
-  font-family: JetBrains Mono;
+  font-family: "JetBrains Mono";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -87,7 +131,7 @@
 }
 
 @font-face {
-  font-family: JetBrains Mono;
+  font-family: "JetBrains Mono";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -98,7 +142,7 @@
 }
 
 @font-face {
-  font-family: JetBrains Mono;
+  font-family: "JetBrains Mono";
   font-style: italic;
   font-weight: 400;
   font-display: swap;
@@ -109,7 +153,7 @@
 }
 
 @font-face {
-  font-family: JetBrains Mono;
+  font-family: "JetBrains Mono";
   font-style: italic;
   font-weight: 500;
   font-display: swap;
@@ -120,7 +164,7 @@
 }
 
 @font-face {
-  font-family: JetBrains Mono;
+  font-family: "JetBrains Mono";
   font-style: italic;
   font-weight: 700;
   font-display: swap;

@@ -1,0 +1,50 @@
+.desc p {
+  color: initial;
+}
+
+.desc a h2,
+.desc a .h2 {
+  color: $black;
+  transition: all ease-in 0.4s;
+}
+
+div.desc h2,
+div.desc .h2 {
+  transition: opacity 0.3s;
+}
+
+.desc a:hover h2,
+.desc a:hover .h2 {
+  color: $purple;
+  transform: translateX(8px);
+  transition: all ease-in 0.1s;
+}
+
+.desc a p {
+  opacity: 0.64;
+}
+
+.desc a:hover p {
+  opacity: 1;
+}
+
+.desc a h2::after,
+.desc a .h2::after {
+  content: "→";
+  font-weight: 300;
+  padding-left: 8px;
+  opacity: 0;
+  transition: all ease-in 0.2s;
+}
+
+.desc a:hover h2::after,
+.desc a:hover .h2::after {
+  content: "→";
+  font-weight: 300;
+  padding-left: 8px;
+  opacity: 1;
+}
+
+.desc a:hover {
+  text-decoration: none;
+}
