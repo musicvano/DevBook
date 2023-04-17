@@ -12,7 +12,7 @@ $border-dark: $gray-800;
 $body-color-dark: $gray-300;
 $dots-dark: darken($body-color-dark, 50%);
 
-$link-color-dark: $blue-300;
+$link-color-dark: $purple-200; // $blue-300;
 $button-color-dark: $link-color-dark;
 $focus-color-dark: lighten($link-color-dark, 2.5%);
 
@@ -579,4 +579,20 @@ $navbar-dark-active-color:          $link-color-dark;
   color: $link-color-dark;
   background: $body-overlay-dark;
   border: 1px solid $body-overlay-dark;
+}
+
+[data-dark-mode] .desc a h2 {
+  color: white !important;
+}
+
+[data-dark-mode] .desc a:hover h2 {
+  color: white !important;
+}
+
+[data-dark-mode] .desc p {
+  color: rgba(255, 255, 255, 0.64);
+}
+
+[data-dark-mode] .desc a:hover p {
+  color: white !important;
 }

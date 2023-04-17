@@ -4,7 +4,7 @@
 title = "DevBook"
 titleSeparator = "-"
 titleAddition = "C#, C++, Java, Kotlin, Python"
-description = "Free courses to learn object-oriented programming with C#, C++, Java, Kotlin, Python."
+description = "Learn object-oriented programming C#, C++, Java, Kotlin, Python for free"
 
 ## Documentation
 # docsVersion = "0.3"
@@ -71,10 +71,9 @@ footer = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\
 copyRight = "Copyright (c) 2023 Ivan Muzyka"
 
 # Alert
-alert = false
+alert = true
 alertDismissable = true
-# alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\" target=\"_blank\" rel=\"noopener\">Check out Doks v0.2</a>"
-alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\">Check out Doks v0.2</a>"
+alertText = "🚧 This site is under construction. Things might be incorrect or incomplete."
 
 # Edit Page
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
