@@ -1,9 +1,7 @@
 ---
 title : "DevBook"
-description: "Learn object-oriented programming with C#, Java, Kotlin,
-C++, Python, JavaScript. Improve practical skills and become a professional developer."
-lead: "Learn object-oriented programming with C#, Java, Kotlin,
-C++, Python, JavaScript. Improve practical skills and become a professional developer."
+description: "Object-Oriented Programming in C#, Java, Kotlin, C++, Python, JavaScript: Tutorial for Beginners"
+lead: "Object-Oriented Programming in C#, Java, Kotlin, C++, Python, JavaScript: Tutorial for Beginners"
 date: 2023-04-01T00:01:00+03:00
 lastmod: 2023-04-01T00:01:00+03:00
 draft: false
