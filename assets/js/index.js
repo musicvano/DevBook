@@ -105,7 +105,8 @@ Source:
   {{- end }}
   {{- end }}
   {{- else }}
-  {{- $list = (where .Site.Pages "Section" "docs") }}
+  /*{{- $list = (where .Site.Pages "Section" "docs") }}*/
+  {{- $list = (where .Site.Pages "Section" "in" .Site.Params.sections.sectionNav) }}
   {{- end }}
 
   {{ $len := (len $list) -}}

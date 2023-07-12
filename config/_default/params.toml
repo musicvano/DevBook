@@ -86,7 +86,7 @@ editPage = false
 lastMod = false
 
 [sections]
-  sectionNav = ["docs", "guides"]
+  sectionNav = ["docs", "csharp", "java", "kotlin", "cpp", "python", "javascript"]
 
 [options]
   lazySizes = true

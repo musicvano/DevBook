@@ -1,68 +1,64 @@
-[[docs]]
-  name = "Пролог"
+[[main]]
+  name = "Курс"
   weight = 10
-  identifier = "prologue"
-  url = "/docs/prologue/"
-
-[[docs]]
-  name = "Допомога"
-  weight = 60
-  identifier = "help"
-  url = "/docs/help/"
-
-# [[docs]]
-#   name = "Lorem"
-#   weight = 70
-#   identifier = "lorem"
-#   url = "/docs/lorem/"
-
-[[guide]]
-  name = "Lorem"
-  weight = 10
-  identifier = "lorem"
-  url = "/guide/lorem/"
-
-[[tutorial]]
-  name = "Lorem"
-  weight = 10
-  identifier = "lorem"
-  url = "/tutorial/lorem/"
+  identifier = "course"
 
 [[main]]
   name = "C#"
-  url = "/docs/prologue/introduction/"
-# url = "/docs/1.0/prologue/introduction/"
-  weight = 10
+  url = "/csharp/basics/introduction/"
+  weight = 15
+  identifier = "csharp-start"
+  parent = "course"
 
-# [[main]]
-#   name = "Tutorial"
-#   url = "/tutorial/lorem/ipsum/"
-#   weight = 15
+[[main]]
+  name = "Java"
+  url = "/java/basics/introduction/"
+  weight = 20
+  identifier = "java-start"
+  parent = "course"
+
+[[main]]
+  name = "Kotlin"
+  url = "/kotlin/basics/introduction/"
+  weight = 25
+  identifier = "kotlin-start"
+  parent = "course"  
+
+[[main]]
+  name = "C++"
+  url = "/cpp/basics/introduction/"
+  weight = 30
+  identifier = "cpp-start"
+  parent = "course"  
+
+[[main]]
+  name = "Python"
+  url = "/python/basics/introduction/"
+  weight = 35
+  identifier = "python-start"
+  parent = "course"  
+
+[[main]]
+  name = "JavaScript"
+  url = "/javascript/basics/introduction/"
+  weight = 40
+  identifier = "javascript-start"
+  parent = "course"  
 
 [[main]]
   name = "Блог"
   url = "/blog/"
-  weight = 20
+  weight = 100
 
 [[main]]
-  name = "Поїхали"
-  weight = 30
-  identifier = "get-started"
+  name = "Контакти"
+  url = "/contact/"
+  weight = 110
+
+[[main]]
+  name = "Docs"
   url = "/docs/prologue/introduction/"
-
-[[main]]
-  name = "Швидкий старт"
-  weight = 40
-  identifier = "quick-start"
-  url = "/docs/prologue/quick-start/"
-  parent = "get-started"
-
-[[main]]
-  name = "Приклади"
-  weight = 50
-  identifier = "tutorial"
-  url = "https://getdoks.org/tutorial/introduction/"
-  parent = "get-started"
+  weight = 120
 
 [[social]]
   name = "GitHub"
