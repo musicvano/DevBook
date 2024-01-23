@@ -11,17 +11,17 @@ namespace DevBook.Controllers
 {
     public class LabsController : Controller
     {
-        private readonly DataContext _context;
+        private readonly DataContext context;
 
         public LabsController(DataContext context)
         {
-            _context = context;
+            this.context = context;
         }
 
         // GET: Labs
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Labs.ToListAsync());
+            return View(await context.Labs.ToListAsync());
         }
 
         // GET: Labs/Details/5
@@ -32,7 +32,7 @@ namespace DevBook.Controllers
                 return NotFound();
             }
 
-            var lab = await _context.Labs.Include(l => l.Tasks).FirstOrDefaultAsync(m => m.Id == id);
+            var lab = await context.Labs.Include(l => l.Tasks).FirstOrDefaultAsync(m => m.Id == id);
             if (lab == null)
             {
                 return NotFound();
@@ -56,8 +56,8 @@ namespace DevBook.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(lab);
-                await _context.SaveChangesAsync();
+                context.Add(lab);
+                await context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
             return View(lab);
@@ -71,7 +71,7 @@ namespace DevBook.Controllers
                 return NotFound();
             }
 
-            var lab = await _context.Labs.FindAsync(id);
+            var lab = await context.Labs.FindAsync(id);
             if (lab == null)
             {
                 return NotFound();
@@ -95,8 +95,8 @@ namespace DevBook.Controllers
             {
                 try
                 {
-                    _context.Update(lab);
-                    await _context.SaveChangesAsync();
+                    context.Update(lab);
+                    await context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -122,7 +122,7 @@ namespace DevBook.Controllers
                 return NotFound();
             }
 
-            var lab = await _context.Labs
+            var lab = await context.Labs
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (lab == null)
             {
@@ -137,19 +137,19 @@ namespace DevBook.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var lab = await _context.Labs.FindAsync(id);
+            var lab = await context.Labs.FindAsync(id);
             if (lab != null)
             {
-                _context.Labs.Remove(lab);
+                context.Labs.Remove(lab);
             }
 
-            await _context.SaveChangesAsync();
+            await context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool LabExists(int id)
         {
-            return _context.Labs.Any(e => e.Id == id);
+            return context.Labs.Any(e => e.Id == id);
         }
     }
 }
